@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200129 15:46:19.088" rpa="false">
+<suite id="s1" name="TestSuite1" source="C:\Users\MASAFI\Desktop\Tools\Eclipse\RobotProject1\test\TestSuite1.robot">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Suite Setup</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.365" level="INFO">I am inside Test Suite Setup</msg>
+<status status="PASS" starttime="20200129 15:46:19.365" endtime="20200129 15:46:19.365"></status>
+</kw>
+<test id="s1-t1" name="MyFirstTest">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.366" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20200129 15:46:19.366" endtime="20200129 15:46:19.366"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Hello World...</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.367" level="INFO">Hello World...</msg>
+<status status="PASS" starttime="20200129 15:46:19.367" endtime="20200129 15:46:19.367"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.367" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20200129 15:46:19.367" endtime="20200129 15:46:19.367"></status>
+</kw>
+<tags>
+<tag>smoke</tag>
+</tags>
+<status status="PASS" starttime="20200129 15:46:19.365" endtime="20200129 15:46:19.368" critical="yes"></status>
+</test>
+<test id="s1-t2" name="MySecondTest">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.369" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20200129 15:46:19.369" endtime="20200129 15:46:19.369"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I'm inside second test</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.370" level="INFO">I'm inside second test</msg>
+<status status="PASS" starttime="20200129 15:46:19.370" endtime="20200129 15:46:19.370"></status>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.371" level="INFO">Set tag 'regression1'.</msg>
+<status status="PASS" starttime="20200129 15:46:19.371" endtime="20200129 15:46:19.371"></status>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<arguments>
+<arg>regression1</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.372" level="INFO">Removed tag 'regression1'.</msg>
+<status status="PASS" starttime="20200129 15:46:19.371" endtime="20200129 15:46:19.372"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.372" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20200129 15:46:19.372" endtime="20200129 15:46:19.372"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" starttime="20200129 15:46:19.369" endtime="20200129 15:46:19.373" critical="yes"></status>
+</test>
+<test id="s1-t3" name="MyThirdTest">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Setup</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.375" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20200129 15:46:19.375" endtime="20200129 15:46:19.375"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I'm inside third test</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.376" level="INFO">I'm inside third test</msg>
+<status status="PASS" starttime="20200129 15:46:19.376" endtime="20200129 15:46:19.376"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Teardown</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.376" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20200129 15:46:19.376" endtime="20200129 15:46:19.376"></status>
+</kw>
+<tags>
+<tag>sanity</tag>
+</tags>
+<status status="PASS" starttime="20200129 15:46:19.374" endtime="20200129 15:46:19.377" critical="yes"></status>
+</test>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am inside Test Suite Teardown</arg>
+</arguments>
+<msg timestamp="20200129 15:46:19.378" level="INFO">I am inside Test Suite Teardown</msg>
+<status status="PASS" starttime="20200129 15:46:19.378" endtime="20200129 15:46:19.378"></status>
+</kw>
+<status status="PASS" starttime="20200129 15:46:19.091" endtime="20200129 15:46:19.378"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0">sanity</stat>
+<stat pass="1" fail="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="TestSuite1">TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200129 15:46:19.075" level="WARN">Collapsing consecutive whitespace during parsing is deprecated. Fix ' ${URL}' in file 'C:\Users\MASAFI\Desktop\Tools\Eclipse\RobotProject1\test\TestSuite1.robot' on line 50.</msg>
+<msg timestamp="20200129 15:46:19.076" level="WARN">Collapsing consecutive whitespace during parsing is deprecated. Fix ' @{CREDENTIALS}' in file 'C:\Users\MASAFI\Desktop\Tools\Eclipse\RobotProject1\test\TestSuite1.robot' on line 51.</msg>
+</errors>
+</robot>
